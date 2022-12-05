@@ -51,26 +51,27 @@ function Contact() {
   };
 
   return (
-    <section id="reach-out" className="contact">
+    <section id="get-in-touch" className="contact">
       <div className="flex-row">
-        <h2 className="section-title secondary-border">Reach Out</h2>
+        <h2 className="section-title secondary-border">Get In Touch</h2>
       </div>
 
       <div className="contact-info">
         <div>
           <h3>Hello {userName}</h3>
+
           <p>Want to get in touch?</p>
           <address>
             Birmingham, UK <br />
-            P: <a href="tel:079.615.41152">079.615.41152</a>
+            P: <a href="tel:079.615.41152">079 615 41152</a>
             <br />
-            E:{" "}
+            E: {" "}
             <a href="mailto://nafisa.am91@gmail.com">
                nafisa.am91@gmail.com
             </a>
           </address>
           <p>
-            <strong>Please leave your feedback below!</strong>
+            <strong>Please leave your feedback here</strong>
           </p>
         </div>
 
