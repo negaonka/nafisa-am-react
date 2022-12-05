@@ -1,14 +1,25 @@
 import React from "react";
 
-import codeQuizImage from "../../assets/small/CodeQuiz.png";
-import lyricFinderImage from "../../assets/small/LyricFinder";
-import designImage from "../../assets/small/Design.png";
-import empTrackerImage from "../../assets/small/EmpTracker.png";
+import codeQuizImage from "../../assets/small/codeQuiz.png";
+import lyricFinderImage from "../../assets/small/lyricFinder.png";
+import designImage from "../../assets/small/designTeam.png";
+import empTrackerImage from "../../assets/small/empTracker.png";
 import scaCarRentalImage from "../../assets/small/scaCarRental.png";
-import pwa19Image from "../../assets/small/Pwa19.png";
+import pwa19Image from "../../assets/small/pwa19.png";
+import ProjectCard from "../ProjectCard";
 
+ 
 
 function Portfolio() {
+  const projectsArray = [
+  {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:"As a group of 5 members and we were tasked with creating a real-world front-end application. We chose to create a lyric finder application that also features the top 10 songs as well as artist. We used 2 server side API's; lyrics.ovh to obtain data for the lyrics and last.fm to obtain the charts data."},
+  // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
+  // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
+  // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
+  // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
+  // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
+]
+
   return (
     <div>
       <section id="work" className="jobs">
@@ -16,13 +27,19 @@ function Portfolio() {
           <h2 className="section-title secondary-border">Projects</h2>
         </div>
 
+        {projectsArray.map((project)=>{
+          return <div>
+            <ProjectCard githubLink={githubLink} imagePath={imagePath} title={title} description={description} />
+          </div>
+        })}
+
         <div className="job">
           <div className="job-info">
             <div className="job-img">
               <a href="https://nafisa-am.github.io/Code-Quiz-22/">
                 {" "}
                 <img
-                  src={codeQuizImage}
+                  src="../../assets/small/codeQuiz.png"
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="Code-Quiz"
@@ -35,7 +52,7 @@ function Portfolio() {
                 In this project I built a timed coding quiz with 
                 multiple-choice questions. This app will run in 
                 the browser and features dynamically updated HTML and 
-                CSS powered by JavaScript.
+                CSS powered by JavaScript.{" "}
               </p>
             </div>
           </div>
@@ -44,10 +61,10 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://blanfried.github.io/Lyric-Finder/">
+              <a href="https://blanfried.github.io/lyric-Finder/">
                 {" "}
                 <img
-                  src={lyricFinderImage}
+                  src="../../assets/small/LyricFinder.png"
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="LyricFinder"
@@ -74,7 +91,7 @@ function Portfolio() {
               <a href="https://drive.google.com/file/d/1ZasNPfnAv2_sDlZuKmclGRGaxT40Isb8">
                 {" "}
                 <img
-                  src={designImage}
+                  src="../../assets/small/designTeam.png"
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="TeamProfileGenerator"
@@ -99,7 +116,7 @@ function Portfolio() {
               <a href="https://shrouded-spire-17125.herokuapp.com">
                 {" "}
                 <img
-                  src={pwa19Image}
+                  src="../../assets/small/pwa19.png"
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="Pwa19"
@@ -125,7 +142,7 @@ function Portfolio() {
               <a href="https://morning-journey-04900.herokuapp.com/">
                 {" "}
                 <img
-                  src={scaCarRentalImage}
+                  src="../../assets/small/scaCarRental.png"
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="ScaCarRental"
@@ -151,7 +168,7 @@ function Portfolio() {
               <a href="https://drive.google.com/file/d/1vJuzhOC1vIXXJNpzMxpy5tvAeFMwBshd/view">
                 {" "}
                 <img
-                  src={empTrackerImage}
+                  src="../../assets/small/empTracker.png"
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="empTracker"
