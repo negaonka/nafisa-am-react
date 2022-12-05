@@ -12,7 +12,7 @@ import ProjectCard from "../ProjectCard";
 
 function Portfolio() {
   const projectsArray = [
-  {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:"As a group of 5 members and we were tasked with creating a real-world front-end application. We chose to create a lyric finder application that also features the top 10 songs as well as artist. We used 2 server side API's; lyrics.ovh to obtain data for the lyrics and last.fm to obtain the charts data."},
+  // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:"As a group of 5 members and we were tasked with creating a real-world front-end application. We chose to create a lyric finder application that also features the top 10 songs as well as artist. We used 2 server side API's; lyrics.ovh to obtain data for the lyrics and last.fm to obtain the charts data."},
   // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
   // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
   // {githubLink: "https://blanfried.github.io/lyric-Finder/", imagePath:"../../assets/small/lyricFinder.png",title:"Lyric Finder",description:""},
@@ -29,7 +29,7 @@ function Portfolio() {
 
         {projectsArray.map((project)=>{
           return <div>
-            <ProjectCard githubLink={githubLink} imagePath={imagePath} title={title} description={description} />
+            <ProjectCard githubLink={project.githubLink} imagePath={project.imagePath} title={project.title} description={project.description} />
           </div>
         })}
 
@@ -39,9 +39,9 @@ function Portfolio() {
               <a href="https://nafisa-am.github.io/Code-Quiz-22/">
                 {" "}
                 <img
-                  src="../../assets/small/codeQuiz.png"
+                  src={codeQuizImage}
                   className="my-2"
-                  style={{ width: "100%" }}
+                  style={{ height: "50%", width: "100%" }}
                   alt="Code-Quiz"
                 />
               </a>
@@ -64,7 +64,7 @@ function Portfolio() {
               <a href="https://blanfried.github.io/lyric-Finder/">
                 {" "}
                 <img
-                  src="../../assets/small/LyricFinder.png"
+                  src={lyricFinderImage}
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="LyricFinder"
@@ -91,7 +91,7 @@ function Portfolio() {
               <a href="https://drive.google.com/file/d/1ZasNPfnAv2_sDlZuKmclGRGaxT40Isb8">
                 {" "}
                 <img
-                  src="../../assets/small/designTeam.png"
+                  src={designImage}
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="TeamProfileGenerator"
@@ -116,7 +116,7 @@ function Portfolio() {
               <a href="https://shrouded-spire-17125.herokuapp.com">
                 {" "}
                 <img
-                  src="../../assets/small/pwa19.png"
+                  src={pwa19Image}
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="Pwa19"
@@ -142,7 +142,7 @@ function Portfolio() {
               <a href="https://morning-journey-04900.herokuapp.com/">
                 {" "}
                 <img
-                  src="../../assets/small/scaCarRental.png"
+                  src={scaCarRentalImage}
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="ScaCarRental"
@@ -168,7 +168,7 @@ function Portfolio() {
               <a href="https://drive.google.com/file/d/1vJuzhOC1vIXXJNpzMxpy5tvAeFMwBshd/view">
                 {" "}
                 <img
-                  src="../../assets/small/empTracker.png"
+                  src={empTrackerImage}
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="empTracker"

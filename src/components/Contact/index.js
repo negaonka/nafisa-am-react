@@ -58,17 +58,19 @@ function Contact() {
 
       <div className="contact-info">
         <div>
-          <h3>Hello {userName}</h3>
+          <h3> {userName}</h3>
 
           <p>Want to get in touch?</p>
           <address>
-            Birmingham, UK <br />
-            P: <a href="tel:079.615.41152">079 615 41152</a>
+            Birmingham UK
+             <br />
+            Tel: <a href="tel:079.615.41152">079 615 41152</a>
             <br />
-            E: {" "}
+            @ : {" "}
             <a href="mailto://nafisa.am91@gmail.com">
                nafisa.am91@gmail.com
             </a>
+            
           </address>
           <p>
             <strong>Please leave your feedback here</strong>
