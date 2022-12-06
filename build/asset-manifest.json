@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb9e67ef.css",
+    "main.js": "/static/js/main.db85be9d.js",
+    "static/js/787.5468a307.chunk.js": "/static/js/787.5468a307.chunk.js",
+    "static/media/empTracker.png": "/static/media/empTracker.80d933cb50d840406638.png",
+    "static/media/scaCarRental.png": "/static/media/scaCarRental.1cb18b996092659f14c8.png",
+    "static/media/lyricFinder.png": "/static/media/lyricFinder.b933f8b82988bb86fb77.png",
+    "static/media/designTeam.png": "/static/media/designTeam.5c28d9ee7f8db9579bae.png",
+    "static/media/pwa19.png": "/static/media/pwa19.1ff3ab6424c7b651bbbe.png",
+    "static/media/codeQuiz.png": "/static/media/codeQuiz.6b8bfcf05332177d1b04.png",
+    "static/media/N_Mohamed.pdf": "/static/media/N_Mohamed.47e839998783b6ff190f.pdf",
+    "static/media/Profile_Pic.png": "/static/media/Profile_Pic.d46fad622b43d64a4e07.png",
+    "static/media/cover.jpg": "/static/media/cover.3c9cbd2f2315f6132961.jpg",
+    "index.html": "/index.html",
+    "main.bb9e67ef.css.map": "/static/css/main.bb9e67ef.css.map",
+    "main.db85be9d.js.map": "/static/js/main.db85be9d.js.map",
+    "787.5468a307.chunk.js.map": "/static/js/787.5468a307.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb9e67ef.css",
+    "static/js/main.db85be9d.js"
+  ]
+}

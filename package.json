@@ -2,6 +2,9 @@
   "name": "nafisa",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "build": "^0.1.4",
     "node": "^19.2.0",
