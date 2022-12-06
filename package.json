@@ -1,45 +1,32 @@
 {
-  "name": "nafisa-am-react",
-  "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": " node index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nafisa-am/nafisa-am-react.git"
-  },
-  "author": "",
-  "license": "ISC",
-
-  "homepage": "https://github.com/nafisa-am/nafisa-am-react#readme",
+  "name": "nafisa",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.4.3",
-    "bootstrap": "^5.2.0",
-    "nodemon": "^2.0.20",
+    "build": "^0.1.4",
+    "node": "^19.2.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.4.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^3.1.0"
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "react-scripts": "^5.0.1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
