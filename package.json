@@ -1,6 +1,7 @@
 {
   "name": "nafisa",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/nafisa-am-react",
   "private": true,
   "engines": {
     "node": "18.x"
