@@ -8,6 +8,11 @@
   --primary-color: #0E5259;
   --secondary-color: #75BFB2;
   --tertiary-color: #D5F2EA;
+  --pale-spring-bud: #ccd5aeff;
+  --pale-spring-bud-2: #e9edc9ff;
+  --cornsilk: #fefae0ff;
+  --papaya-whip: #faedcdff;
+  --fawn: #d4a373ff;
 }
 
 #root {

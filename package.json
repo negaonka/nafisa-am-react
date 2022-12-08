@@ -1,11 +1,8 @@
 {
+  "homepage": "https://nafisa-am.github.io/nafisa-am-react",
   "name": "nafisa",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/nafisa-am-react",
   "private": true,
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "build": "^0.1.4",
     "node": "^19.2.0",
@@ -16,9 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
+    "build": "react-scripts build"
+    
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
