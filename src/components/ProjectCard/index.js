@@ -1,13 +1,12 @@
+import React from "react";
 const ProjectCard = (props) => {
   return (
     <>
       <div>
-        {" "}
         <div className="job">
           <div className="job-info">
             <div className="job-img">
               <a href={props.githubLink}>
-                {" "}
                 <img
                   src={props.imagePath}
                   className="my-2"
